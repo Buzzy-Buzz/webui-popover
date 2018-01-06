@@ -1,10 +1,10 @@
 {
-  "name": "webui-popover",
-  "title": "jQuery WebUI Popover plugin",
-  "description": "A enhancement popover plugin for Bootstrap ,but you can use it stand-alone without Bootstrap!",
-  "author": "Sandy Duan <sanddywalker@gmail.com>",
-  "homepage": "https://github.com/sandywalker/webui-popover",
-  "version": "1.2.18",
+  "name": "webui-popover-buzzy",
+  "title": "jQuery WebUI Popover plugin - with fix 262",
+  "description": "A enhancement popover plugin for Bootstrap ,but you can use it stand-alone without Bootstrap! Includes fix for https://github.com/sandywalker/webui-popover/pull/262",
+  "author": "Aam Ginsburg <adam.ginsburg@buzzy.buzz> (http://www.buzzy.buzz)",
+  "homepage": "https://github.com/Buzzy-Buzz/webui-popover",
+  "version": "1.2.19",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandywalker/webui-popover"
+    "url": "https://github.com/Buzzy-Buzz/webui-popover"
   },
   "keywords": [
     "popover",
