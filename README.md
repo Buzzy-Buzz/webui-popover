@@ -25,12 +25,12 @@ jquery1.7+
 
 ##NPM
 ```bash
-  npm install webui-popover
+  npm install webui-popover-buzzy
 ```
 
 ##Bower
 ```bash
-  bower install webui-popover
+  bower install webui-popover-buzzy
 ```
 
 ##CDN
@@ -122,7 +122,7 @@ Create Popover Dynamically (by new option:'selector').
 ```html
 <a href="#" id="addPop" class="btn btn-default"> add Pop </a>
 <div class="pops">
-      
+
 </div>
 ```
 
@@ -208,7 +208,7 @@ $('a').webuiPopover('destroy');
     width:'auto',//can be set with  number
     height:'auto',//can be set with  number
     trigger:'click',//values:  click,hover,manual(handle events by your self),sticky(always show after popover is created);
-    selector:false,// jQuery selector, if a selector is provided, popover objects will be delegated to the specified. 
+    selector:false,// jQuery selector, if a selector is provided, popover objects will be delegated to the specified.
     style:'',// Not to be confused with inline `style=""`, adds a classname to the container for styling, prefixed by `webui-popover-`. Default '' (light theme), 'inverse' for dark theme
     animation:null, //pop with animation,values: pop,fade (only take effect in the browser which support css3 transition)
     delay: {//show and hide delay time of the popover, works only when trigger is 'hover',the value can be number or object
@@ -244,7 +244,7 @@ $('a').webuiPopover('destroy');
 ###Global Methods
 
 
-In some situation, you may want to manipulate the plugin like 'show/hide' popovers by  global methods.  The new object **WebuiPopovers** is introduced and exposed to the global window object, so you can access these methods like 'WebuiPopovers.someMethod()...'. 
+In some situation, you may want to manipulate the plugin like 'show/hide' popovers by  global methods.  The new object **WebuiPopovers** is introduced and exposed to the global window object, so you can access these methods like 'WebuiPopovers.someMethod()...'.
 
 Here are examples of calling code.
 
@@ -266,7 +266,7 @@ WebuiPopovers.hide('#el');
 //Hide All Popovers
 WebuiPopovers.hideAll();
 
-//Update the Popover content 
+//Update the Popover content
 WebuiPopovers.updateContent('.btn-showpop','some html or text');
 
 
