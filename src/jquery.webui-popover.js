@@ -23,7 +23,7 @@
             height: 'auto',
             trigger: 'click', //hover,click,sticky,manual
             style: '',
-            selector: false, // jQuery selector, if a selector is provided, popover objects will be delegated to the specified. 
+            selector: false, // jQuery selector, if a selector is provided, popover objects will be delegated to the specified.
             delay: {
                 show: null,
                 hide: 300
@@ -945,7 +945,7 @@
                         height: this.$element[0].offsetHeight || elRect.height
                     });
                     // Else fixed container need recalculate the  position
-                } else if (cssPos === 'fixed') {
+                } else if (cssPos === 'fixed' || cssPos === 'absolute') {
                     var containerRect = container[0].getBoundingClientRect();
                     return {
                         top: elRect.top - containerRect.top + container.scrollTop(),
