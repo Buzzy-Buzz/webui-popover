@@ -1,6 +1,8 @@
 WebUI-Popover
 =============
 
+NOTE: this is just a temporary build to deal with https://github.com/sandywalker/webui-popover/pull/262/commits/8f52502d229f2a61af7e8ef01548e00ceff9b3c7 waiting for Pull Request. Hopefully this will be accepted and we can move back to using https://github.com/sandywalker/webui-popover
+
 A lightWeight popover plugin with jquery, enchance the  popover plugin of bootstrap with some awesome new features. It works well with bootstrap, but bootstrap is not necessary!
 
 
